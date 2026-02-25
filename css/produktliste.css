@@ -40,6 +40,7 @@ img {
   max-width: 100%;
   border-radius: 16px;
   margin: 0;
+  display: block;
 }
 
 .discountOverlay {
@@ -96,7 +97,7 @@ img {
 .produkt {
   background: rgba(255, 255, 255, 0.17);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(4.1px);
   -webkit-backdrop-filter: blur(4.1px);
   border: 1px solid rgba(255, 255, 255, 0.42);
@@ -106,6 +107,7 @@ img {
   grid-row: span 4;
   max-height: 500px;
 }
+
 .produkt h2 {
   font-size: 1em;
   margin: 0 0 0 1rem;
@@ -113,6 +115,11 @@ img {
 
 .produkt p {
   margin: 0 0 0 1rem;
+}
+
+.produkt:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
 }
 
 .katagori {
@@ -146,9 +153,8 @@ a.knap {
   margin-left: 5%;
 }
 
-a img:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
+.knap:hover {
+  background-color: #9b0025;
 }
 
 .nedsat {
