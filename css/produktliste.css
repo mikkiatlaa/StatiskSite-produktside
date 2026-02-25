@@ -71,7 +71,6 @@ img {
 }
 
 .soldOutOverlay {
-  /* ensure overlay can position children over the image */
   position: relative;
   display: block;
 }
@@ -105,24 +104,28 @@ img {
   display: grid;
   grid-template-rows: subgrid;
   grid-row: span 4;
+  max-height: 500px;
 }
 .produktnavn {
-  font-size: 0.8em;
+  font-size: 1em;
   font-weight: bold;
+  padding: 0.5rem 1rem;
 }
 .katagori {
   font-size: 0.7em;
   color: #555;
 }
 
-.valuta {
+span {
   color: #555;
   margin-right: 0.5rem;
+  text-decoration: none;
 }
 a.knap {
   background: #770025;
   color: #fff;
   font-weight: bold;
+  text-decoration: none;
   border-radius: 8px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4.1px);
@@ -130,10 +133,32 @@ a.knap {
   border: 1px solid rgba(255, 255, 255, 0.42);
   cursor: pointer;
   transition: background-color 0.3s;
-  padding: 5px 20px;
+  padding: 10px;
+  margin-left: 5%;
 }
 
 a img:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
+}
+
+.nedsat {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.nytPris {
+  font-weight: bold;
+}
+
+.nytPris::after {
+  content: "*";
+  font-size: 1em;
+  color: red;
+}
+
+.info {
+  position: relative;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
