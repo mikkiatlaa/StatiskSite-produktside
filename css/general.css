@@ -92,6 +92,12 @@ p {
   margin: 20px 0;
 }
 
+a {
+  font-family: Helvetica, sans-serif;
+  text-align: start;
+  margin: 20px 0;
+}
+
 footer {
   background-color: #4a1520;
   color: #fff;

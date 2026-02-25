@@ -106,13 +106,17 @@ img {
   grid-row: span 4;
   max-height: 500px;
 }
-.produktnavn {
+.produkt h2 {
   font-size: 1em;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
+  margin: 0 0 0 1rem;
 }
+
+.produkt p {
+  margin: 0 0 0 1rem;
+}
+
 .katagori {
-  font-size: 0.7em;
+  font-size: 0.9em;
   color: #555;
 }
 
@@ -121,6 +125,11 @@ span {
   margin-right: 0.5rem;
   text-decoration: none;
 }
+
+.pris {
+  font-size: 1.2em;
+}
+
 a.knap {
   background: #770025;
   color: #fff;
@@ -160,5 +169,5 @@ a img:hover {
 .info {
   position: relative;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0;
 }
