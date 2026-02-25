@@ -1,0 +1,100 @@
+.produkt-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* reduce extremely large gap between columns */
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: start;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.1px);
+  -webkit-backdrop-filter: blur(4.1px);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+}
+.produktbillede img {
+  max-width: 100%;
+  border: 1px solid #000;
+  border-radius: 12px;
+  /* reduce large external margin which grows the container height */
+  margin: 1.5rem;
+}
+
+.info {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 20px;
+  align-items: flex-end;
+  margin-top: 0;
+  grid-row: span 5;
+}
+
+.farvevalg {
+  display: flex;
+  gap: 10px;
+  margin-top: 0;
+}
+
+.brown {
+  background-color: #7c4c3a;
+  color: #fff;
+}
+.brown:hover {
+  transform: scale(1.05);
+}
+
+.blue {
+  background-color: #3a7c9c;
+  color: #fff;
+}
+
+.blue:hover {
+  transform: scale(1.05);
+}
+
+.green {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.green:hover {
+  transform: scale(1.05);
+}
+
+.farve-btn {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.str-btn {
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.køb-container {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.køb-knap {
+  background: #770025;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.1px);
+  -webkit-backdrop-filter: blur(4.1px);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  padding: 10px 40px;
+  align-self: end;
+}

@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.herotitle {
+  height: 20vh;
+  margin-top: 5vh;
+  margin-left: 10%;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 100%;
+  align-items: center;
+  align-content: center;
+}
+
+/* center the .produktcards section within the main.flexgrid container */
+main.flexgrid {
+  /* keep grid layout but center its children horizontally */
+  justify-items: center;
+}
+
+.produktcards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  /* constrain width so the grid doesn't stretch edge-to-edge
+       and center it inside the parent */
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  border-radius: 16px;
+  margin: 0;
+}
+
+.discountOverlay {
+  /* ensure overlay can position children over the image */
+  position: relative;
+  display: block;
+}
+
+.discountOverlay img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.discountOverlay .discountText {
+  position: absolute;
+  right: 1rem;
+  top: 0.6rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 0.35rem 1rem;
+  font-weight: bold;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+.soldOut img {
+  opacity: 0.7;
+}
+
+.soldOutOverlay {
+  /* ensure overlay can position children over the image */
+  position: relative;
+  display: block;
+}
+
+.soldOutOverlay img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.soldOutText {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.6rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 0.35rem 1rem;
+  font-weight: bold;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+.produkt {
+  background: rgba(255, 255, 255, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.1px);
+  -webkit-backdrop-filter: blur(4.1px);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  max-width: 250px;
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 4;
+}
+.produktnavn {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.katagori {
+  font-size: 0.7em;
+  color: #555;
+}
+
+.valuta {
+  color: #555;
+  margin-right: 0.5rem;
+}
+a.knap {
+  background: #770025;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.1px);
+  -webkit-backdrop-filter: blur(4.1px);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  padding: 5px 20px;
+}
+
+a img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}

@@ -1,0 +1,107 @@
+body {
+  background-color: #fffef8;
+  background-image: linear-gradient(#9db8ff 1px, transparent 1px), linear-gradient(90deg, #9db8ff 1px, transparent 1px);
+
+  background-size: 40px 40px;
+
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.herotitle {
+  height: 20vh;
+  margin-top: 5vh;
+  margin-left: 10%;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 100%;
+  align-items: start start;
+  align-content: start;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #4a1520;
+  padding: 10px 0;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  background-color: #9b0025;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  text-align: start;
+  margin: 20px 0;
+  font-size: 4em;
+  font-weight: bold;
+}
+h2 {
+  font-family: Helvetica, sans-serif;
+  text-align: start;
+  margin: 20px 0;
+  font-weight: bold;
+}
+h3 {
+  font-family: Helvetica, sans-serif;
+  text-align: start;
+  margin: 20px 0;
+  font-weight: bold;
+}
+h4 {
+  font-family: Helvetica, sans-serif;
+  text-align: start;
+  margin: 20px 0;
+  font-weight: bold;
+}
+p {
+  font-family: Helvetica, sans-serif;
+  text-align: start;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #4a1520;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  height: 20vh;
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url(/fonts/Helvetica.ttf) format("truetype");
+}

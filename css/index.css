@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.herotitle {
+    height: 20vh;
+    margin-top: 5vh;
+    margin-left: 10%;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #770025;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.card:hover {
+    background-color: #9b0025;
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+main a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 220px 20px 0;
+    font-weight: bold;
+}
