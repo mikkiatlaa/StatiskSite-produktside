@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1163,
+    "img": "https://5mc2.com/cdn/shop/files/70.webp?v=1737034193&width=1000",
+    "gender": "Men",
+    "category": "Sweaters/Hoodies",
+    "articletype": "Hoodie",
+    "season": "Winter",
+    "productionyear": 2025,
+    "usagetype": "Daily",
+    "productdisplayname": "Orion Blue Crew Hoodie",
+    "price": 895,
+    "discount": null,
+    "brandname": "2mc5",
+    "soldout": 0
+  },
+  {
+    "id": 1163,
+    "img": "https://5mc2.com/cdn/shop/files/63.webp?v=1737034171&width=1000",
+    "gender": "Men",
+    "category": "Sweaters/Hoodies",
+    "articletype": "Hoodie",
+    "season": "Winter",
+    "productionyear": 2025,
+    "usagetype": "Daily",
+    "productdisplayname": "Orion Blue Crew Hoodie",
+    "price": 895,
+    "discount": null,
+    "brandname": "2mc5",
+    "soldout": 0
+  },
+  {
+    "id": 1165,
+    "img": "https://5mc2.com/cdn/shop/files/55.webp?v=1737034138&width=1000",
+    "gender": "Men",
+    "category": "Sweaters/Hoodies",
+    "articletype": "Hoodie",
+    "season": "Winter",
+    "productionyear": 2025,
+    "usagetype": "Daily",
+    "productdisplayname": "Choco Brown Crew Hoodie",
+    "price": 895,
+    "discount": 400,
+    "brandname": "2mc5",
+    "soldout": 0
+  },
+  {
+    "id": 1165,
+    "img": "https://5mc2.com/cdn/shop/files/bordeauxcrewhoodiepictureonmodelfront.webp?v=1757952759&width=1000",
+    "gender": "Men",
+    "category": "Sweaters/Hoodies",
+    "articletype": "Hoodie",
+    "season": "Winter",
+    "productionyear": 2025,
+    "usagetype": "Daily",
+    "productdisplayname": "Choco Brown Crew Hoodie",
+    "price": 895,
+    "discount": 400,
+    "brandname": "2mc5",
+    "soldout": 0
+  }
+]
